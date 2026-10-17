@@ -1,0 +1,14 @@
+{
+  "input_name": "text",
+  "input_shape": [
+    "batch_size",
+    1
+  ],
+  "input_format": "event_text + ' [CONTEXT] ' + context; omit context part when empty",
+  "labels": {
+    "0": "Noise / Progress",
+    "1": "Dependency",
+    "2": "Warning",
+    "3": "Error"
+  }
+}
